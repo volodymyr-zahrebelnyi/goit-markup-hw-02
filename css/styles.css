@@ -25,10 +25,6 @@ ul {
   color: #2e2f42;
 }
 
-.header-list {
-  display: flex;
-}
-
 .header-list-link {
   font-weight: 500;
   font-size: 16px;
@@ -43,10 +39,6 @@ ul {
 
 .header-list-link:active {
   text-decoration: underline;
-}
-
-.header-address {
-  display: flex;
 }
 
 .header-address-link {
@@ -77,9 +69,8 @@ ul {
 }
 
 .main-button {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
-  display: flex;
+  cursor: pointer;
 }
 
 .main-button:hover {
